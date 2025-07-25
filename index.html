@@ -1,1 +1,340 @@
-<!-- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>UK Rape Crisis Dashboard - Live Statistics & Data Analysis</title>
+    <meta name="title" content="UK Rape Crisis Dashboard - Live Statistics & Data Analysis">
+    <meta name="description" content="Real-time dashboard showing the true scale of rape crisis in the UK. 5+ million victims since 2002. England & Wales has the highest rape rate in Europe. Only 2.1% of cases result in charges.">
+    <meta name="keywords" content="UK rape statistics, rape crisis UK, sexual violence data, crime statistics England Wales, rape conviction rates, underreporting sexual assault, justice system failure, rape prosecution statistics">
+    <meta name="author" content="Restorationists">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rapecrisisdashboard.uk/">
+    <meta property="og:title" content="UK Rape Crisis Dashboard - Live Statistics & Data Analysis">
+    <meta property="og:description" content="Real-time dashboard showing the true scale of rape crisis in the UK. 5+ million victims since 2002. England & Wales has the highest rape rate in Europe.">
+    <meta property="og:image" content="https://placeholder-social-card-image.com/rape-crisis-dashboard.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="UK Rape Crisis Dashboard">
+    <meta property="og:locale" content="en_GB">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rapecrisisdashboard.uk/">
+    <meta property="twitter:title" content="UK Rape Crisis Dashboard - Live Statistics">
+    <meta property="twitter:description" content="5+ million rape victims since 2002. UK has highest rape rate in Europe. Only 2.1% result in charges. See the hidden crisis.">
+    <meta property="twitter:image" content="https://placeholder-social-card-image.com/rape-crisis-dashboard.jpg">
+    <meta property="twitter:creator" content="@restorationists">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="category" content="Crime Statistics">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="subject" content="UK Rape Crisis Statistics and Analysis">
+    <meta name="topic" content="Sexual Violence, Crime Data, Justice System">
+    <meta name="summary" content="Comprehensive analysis of rape statistics in the UK from 2002-2029, showing true scale of crisis">
+    <meta name="classification" content="Public Interest, Data Visualization, Social Issues">
+    <meta name="designer" content="Restorationists">
+    <meta name="owner" content="Rape Crisis UK">
+    <meta name="url" content="https://rapecrisisdashboard.uk">
+    <meta name="identifier-URL" content="https://rapecrisisdashboard.uk">
+    <meta name="directory" content="submission">
+    <meta name="pagename" content="UK Rape Crisis Dashboard">
+    <meta name="category" content="Social Issues, Crime Statistics, Data Visualization">
+    <meta name="coverage" content="UK, England, Wales, Scotland, Northern Ireland">
+    
+    <!-- Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "UK Rape Crisis Statistics Dashboard",
+      "description": "Comprehensive dataset and analysis of rape statistics in the United Kingdom from 2002-2029, including true scale estimates accounting for underreporting",
+      "url": "https://rapecrisisdashboard.uk",
+      "creator": {
+        "@type": "Organization",
+        "name": "Restorationists",
+        "url": "https://github.com/restorationists"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rape Crisis UK"
+      },
+      "datePublished": "2025-07-25",
+      "dateModified": "2025-07-25",
+      "keywords": ["rape statistics", "UK crime data", "sexual violence", "justice system", "underreporting", "prosecution rates"],
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "United Kingdom"
+      },
+      "temporalCoverage": "2002/2029"
+    }
+    </script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white min-h-screen w-full">
+    
+    <!-- Hidden SEO Content for Search Engines -->
+    <!--
+    UK Rape Crisis Dashboard - Comprehensive Analysis
+    
+    This dashboard presents critical statistics about sexual violence in the United Kingdom:
+    
+    KEY STATISTICS:
+    - Over 5 million people raped in UK since 2002
+    - England & Wales has highest rape rate in Europe (117.7 per 100,000 vs EU mean 21.5)
+    - Only 2.1% of reported cases result in criminal charges
+    - 5 out of 6 rapes never reported to police
+    - 452% increase in reported rapes from 2002 to 2023
+    - Someone raped every 68 seconds based on true scale
+    - 91% of victims are women
+    - 99.6% of actual rapists never face charges
+    
+    DATA SOURCES:
+    - Office for National Statistics (ONS) Police Recorded Crime Data
+    - Crime Survey for England and Wales (CSEW)
+    - House of Lords Library Prosecution Statistics
+    - Rape Crisis England & Wales Reporting Rates
+    - European Statistical Data on Sexual Assault Rates
+    - Academic Research on False Allegation Rates
+    
+    METHODOLOGY:
+    True scale calculation: Reported cases × UK adjustment (1.122) × underreporting multiplier (6) × false allegation adjustment (0.95)
+    
+    GEOGRAPHIC COVERAGE: England, Wales, Scotland, Northern Ireland, United Kingdom
+    TIME PERIOD: 2002-2029 (historical data through 2023, projections 2024-2029)
+    
+    CRISIS INDICATORS:
+    - Massive underreporting (only 16.7% report to police)
+    - Justice system failure (98% of reports don't result in charges)
+    - European outlier (UK rape rate 447% above EU average)
+    - Systemic crisis affecting millions of victims
+    - Projected 7.2 million total victims by 2029
+    
+    This data visualization aims to reveal the hidden scale of sexual violence crisis in the UK
+    and highlight the urgent need for policy intervention and justice system reform.
+    
+    Created by Restorationists for Rape Crisis UK
+    Data repository: https://github.com/restorationists/rape-statistics
+    -->
+    
+    <h1 style="position: absolute; left: -9999px; top: -9999px;">UK Rape Crisis Dashboard - 5 Million Victims Since 2002</h1>
+    <h2 style="position: absolute; left: -9999px; top: -9999px;">England Wales Highest Rape Rate Europe Sexual Violence Statistics</h2>
+    <h3 style="position: absolute; left: -9999px; top: -9999px;">Justice System Failure Only 2.1% Cases Result Charges</h3>
+<body class="bg-black text-white h-screen w-full">
+    
+    <!-- Row 1: Top Stats Grid (6 cards) -->
+      <div class="w-full p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="bg-gray-950/90 rounded-lg p-4 neon-border flex flex-col justify-center items-start space-y-1">
+        <div class="text-5xl lg:text-6xl font-light text-red-400" id="womenRapedTotal">4,314,850</div>
+        <div class="text-base text-gray-300 font-light card-stat-title">Women victims to date</div>
+        <div class="text-xs text-gray-500 font-light">91% of total counter</div>
+      </div>
+      <div class="bg-gray-950/90 rounded-lg p-4 neon-border flex flex-col justify-center items-start space-y-1">
+        <div class="text-5xl lg:text-6xl font-light text-orange-400">452%</div>
+        <div class="text-base text-gray-300 font-light card-stat-title">Increase since 2002</div>
+        <div class="text-xs text-gray-500 font-light">12,295 to 67,928 reported</div>
+      </div>
+      <div class="bg-gray-950/90 rounded-lg p-4 neon-border flex flex-col justify-center items-start space-y-1">
+        <div class="text-4xl lg:text-5xl font-light text-emerald-400">Every 68s</div>
+        <div class="text-base text-gray-300 font-light card-stat-title">Someone raped</div>
+        <div class="text-xs text-gray-500 font-light">Based on true scale</div>
+      </div>
+      <div class="bg-gray-950/90 rounded-lg p-4 neon-border flex flex-col justify-center items-start space-y-1">
+        <div class="text-4xl lg:text-5xl font-light text-pink-400">Every 75s</div>
+        <div class="text-base text-gray-300 font-light card-stat-title">One woman raped</div>
+        <div class="text-xs text-gray-500 font-light">91% of all victims</div>
+      </div>
+      <div class="bg-gray-950/90 rounded-lg p-4 neon-border flex flex-col justify-center items-start space-y-1">
+        <div class="text-5xl lg:text-6xl font-light text-purple-400">5 in 6</div>
+        <div class="text-base text-gray-300 font-light card-stat-title">Never reported</div>
+        <div class="text-xs text-gray-500 font-light">Massive hidden crisis</div>
+      </div>
+      <div class="bg-gray-950/90 rounded-lg p-4 neon-border flex flex-col justify-center items-start space-y-1">
+        <div class="text-5xl lg:text-6xl font-light text-blue-400" id="by2029Total">7.24M</div>
+        <div class="text-base text-gray-300 font-light card-stat-title">By end of 2029</div>
+        <div class="text-xs text-gray-500 font-light">Projected cumulative</div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Row 2: Main Counter Section -->
+    <div class="h-2/6 w-full p-4">
+        <div class="grid grid-cols-5 gap-4 h-full">
+            <!-- Left stat -->
+            <div class="bg-gray-950/90 rounded-lg neon-border flex flex-col justify-center items-center h-full">
+                <div class="text-center">
+                    <div class="text-5xl font-light text-orange-400 mb-2" id="dailyCounter">1275</div>
+                    <div class="text-lg text-gray-300 font-light">Today so far</div>
+                    <div class="text-sm text-gray-500 font-light mt-1">True scale estimate</div>
+                </div>
+            </div>
+            
+            <!-- MASSIVE COUNTER (3 columns) -->
+            <div class="col-span-3 bg-gray-950/90 rounded-lg neon-border flex flex-col justify-center items-center h-full">
+                <div class="text-center">
+                    <h2 class="text-xl text-gray-300 mb-4 font-light">Live counter: People raped in UK since 2002</h2>
+                    <div id="liveCounter" class="text-8xl lg:text-9xl font-thin text-red-400 counter-glow pulse-red leading-none mb-4">
+                        5,001,853
+                    </div>
+                    <div class="flex gap-4 items-center justify-center">
+                        <a href="https://quangocracy.org.uk/restorationist-logo-dark.png" target="_blank" class="text-gray-400 hover:text-white">
+                            <img src="https://quangocracy.org.uk/restorationist-logo-dark.png" alt="Restorationist" class="h-8 w-auto">
+                        </a>
+                        <button onclick="openModal()" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded text-sm text-gray-300 font-light border border-gray-600">
+                            View Methodology & Sources
+                        </button>
+                        <a href="https://github.com/restorationists/rape-statistics" target="_blank" class="text-gray-400 hover:text-white">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right chart/stat -->
+            <div class="bg-gray-950/90 rounded-lg neon-border flex flex-col justify-center items-center h-full">
+                <div class="text-center">
+                    <div class="text-5xl font-light text-red-400 mb-2">2.1%</div>
+                    <div class="text-lg text-gray-300 font-light">Ever charged</div>
+                    <div class="text-sm text-gray-500 font-light mt-1">Justice system failure</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 3: Supporting Stats -->
+    <div class="h-1/6 w-full p-4">
+        <div class="grid grid-cols-4 gap-4 h-full">
+            <div class="bg-gray-950/90 rounded-lg p-4 flex flex-col justify-center items-center h-full">
+                <div class="text-3xl font-light text-emerald-400 mb-2" id="additionalBy2029">2.24M</div>
+                <div class="text-lg text-gray-300 text-center font-light">More by end of 2029</div>
+                <div class="text-sm text-gray-500 font-light" id="additionalCalculation">7.24M total - 5.0M current</div>
+            </div>
+            
+            <div class="bg-gray-950/90 rounded-lg p-4 flex flex-col justify-center items-center h-full">
+                <div class="text-3xl font-light text-orange-400 mb-2" id="currentYearTotal">465K</div>
+                <div class="text-lg text-gray-300 text-center font-light" id="currentYearLabel">Expected in 2025</div>
+                <div class="text-sm text-gray-500 font-light">Annual projection</div>
+            </div>
+            
+            <div class="bg-gray-950/90 rounded-lg p-4 flex flex-col justify-center items-center h-full">
+                <div class="text-3xl font-light text-pink-400 mb-2">67,928</div>
+                <div class="text-lg text-gray-300 text-center font-light">Reported in 2023</div>
+                <div class="text-sm text-gray-500 font-light">Last official data</div>
+            </div>
+            
+            <div class="bg-gray-950/90 rounded-lg p-4 flex flex-col justify-center items-center h-full">
+                <div class="text-3xl font-light text-red-400 mb-2">5%</div>
+                <div class="text-lg text-gray-300 text-center font-light">False allegations</div>
+                <div class="text-sm text-gray-500 font-light">Rare occurrence</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 4: Full Width Historical Chart -->
+    <div class="h-auto md:h-2/6 w-full p-2 md:p-4 py-4 mb-4">
+        <div class="bg-gray-950/90 rounded-lg neon-border min-h-[300px] md:h-full p-3 md:p-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-2 md:mb-4">
+                <h3 class="text-sm md:text-2xl font-light text-red-400">Historical Trends & Projections: The Hidden Crisis</h3>
+                <div class="text-xs md:text-sm text-gray-400 font-light">Highest rape rate in Europe • 2014 surge • COVID dip 2020</div>
+            </div>
+            <div class="h-64 md:h-5/6">
+                <canvas id="fullChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Methodology Modal -->
+    <div id="methodologyModal" class="modal fixed inset-0 bg-black bg-opacity-90 items-center justify-center z-50">
+        <div class="bg-black rounded-lg p-8 max-w-6xl mx-4 max-h-5/6 overflow-y-auto neon-border w-full">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-red-400">Methodology & Sources</h3>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            
+            <div class="text-sm text-gray-300 space-y-4">
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">Base Data Calculation:</h4>
+                    <p><strong>England & Wales (2023):</strong> 67,928 recorded rapes (last official data)</p>
+                    <p><strong>UK-wide projection:</strong> Pro-rated to include Scotland and Northern Ireland = 76,195 total recorded rapes</p>
+                    <p><strong>True scale calculation:</strong> Recorded × 1.122 (UK adjustment) × 6 (underreporting) × 0.95 (false allegations) = Annual true scale estimate</p>
+                    <p><strong>Cumulative totals:</strong> Running sum from 2002 baseline through current projections (4.74M through 2024)</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">Key Multipliers:</h4>
+                    <p><strong>Underreporting rate:</strong> Only 1 in 6 rapes are reported to police (Rape Crisis England & Wales)</p>
+                    <p><strong>False allegations:</strong> 5% rate used (within established 2-8% range from academic research)</p>
+                    <p><strong>UK adjustment:</strong> 12.2% increase to account for Scotland and Northern Ireland population</p>
+                    <p><strong>Gender breakdown:</strong> 91% female victims, 9% male victims (ONS Crime Survey)</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">Historical Data Application:</h4>
+                    <p><strong>Consistent methodology:</strong> Same calculation applied to all years from 2002-2024</p>
+                    <p><strong>2002 baseline:</strong> 12,295 recorded → 78,632 estimated true scale</p>
+                    <p><strong>2023 latest:</strong> 67,928 recorded → 4,292,132 cumulative true scale since 2002</p>
+                    <p><strong>452% increase:</strong> Reported rapes from 12,295 (2002) to 67,928 (2023)</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">European Context:</h4>
+                    <p><strong>England & Wales rate:</strong> 117.7 per 100,000 (2021) - highest in Europe</p>
+                    <p><strong>European mean:</strong> 21.5 per 100,000</p>
+                    <p><strong>Second highest (Sweden):</strong> 96.0 per 100,000</p>
+                    <p><strong>UK position:</strong> 23% higher than Sweden, 447% above European average</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">Justice System Failure:</h4>
+                    <p><strong>Charging rate:</strong> Only 2.1% of reported cases result in charges (House of Lords Library)</p>
+                    <p><strong>Total charged 2002-2024:</strong> ~17,500 people over 23 years</p>
+                    <p><strong>True scale uncharged:</strong> 99.6% of actual rapists never face charges</p>
+                    <p><strong>By 2029:</strong> 532,055 people will rape without consequence in that year alone</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">Projections Methodology:</h4>
+                    <p><strong>Growth rate:</strong> 3.5% annual increase (conservative estimate)</p>
+                    <p><strong>Cumulative projection:</strong> Applied to build running totals through 2029</p>
+                    <p><strong>2029 projection:</strong> 7,237,282 cumulative total (2.5M additional from current)</p>
+                    <p><strong>Time calculations:</strong> Based on 2025 annual projection of 465,365 (Every 68 seconds)</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-200 mb-2">Primary Sources:</h4>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>Office for National Statistics (ONS) - Police recorded crime data & population statistics</li>
+                        <li>Crime Survey for England and Wales (CSEW) - Victimization estimates</li>
+                        <li>Rape Crisis England & Wales - Reporting rate statistics</li>
+                        <li>House of Lords Library - Rape prosecution statistics</li>
+                        <li>European statistical data - Sexual assault rates per 100,000 population</li>
+                        <li>Academic research on false allegation rates (Lisak et al., 2010)</li>
+                    </ul>
+                </div>
+                
+                <div class="text-xs text-gray-500 border-t border-gray-700 pt-4">
+                    <p><strong>Dashboard created for Rape Crisis UK</strong> - Supporting survivors and working to end sexual violence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
