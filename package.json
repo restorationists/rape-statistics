@@ -1,0 +1,30 @@
+{
+  "name": "rape-statistics",
+  "version": "1.0.1",
+  "description": "A graphical counter page displaying the number of rapes in the UK since 2002.",
+  "main": "index.html",
+  "homepage": "https://restorationists.github.io/rape-statistics",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/restorationists/rape-statistics.git"
+  },
+  "keywords": [
+    "uk",
+    "government",
+    "statistics",
+    "crime",
+    "rape"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/restorationists/rape-statistics/issues"
+  }
+}
